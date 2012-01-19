@@ -1,0 +1,16 @@
+{
+  "author": "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
+  "name": "nproj",
+  "description": "Empty node project generator",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aheckmann/nproj.git"
+  },
+  "bin": { "nproj": "./bin/nproj" }
+}
