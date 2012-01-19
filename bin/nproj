@@ -1,6 +1,4 @@
 #!/bin/bash
-# copy our goosetest.js to another filename passed on the cmd line
-# and replace all occurances of {NAME} with the filename too.
 test $# -ne 1 && echo "usage: nproj projectname" && exit 0;
 mkdir $1
 npm init $1
