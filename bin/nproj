@@ -10,6 +10,7 @@ echo "module.exports = exports = require('./lib');" > index.js
 echo -e "// $1\n\n" > lib/index.js
 echo -e "*.sw*" > .gitignore
 touch History.md
+echo -e "language: node_js\nnode_js:\n\t- 0.6\n\t- 0.8" > .travis.yml
 title=$1
 len=${#title}
 p=$(printf "%${len}s")
