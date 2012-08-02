@@ -1,8 +1,8 @@
 #!/bin/bash
 test $# -ne 1 && echo "usage: nproj projectname" && exit 0;
 mkdir $1
-npm init $1
 cd $1
+npm init $1
 mkdir lib
 mkdir test
 echo -e "\ntest:\n\t@node test/index.js\n\n.PHONY: test" > Makefile
