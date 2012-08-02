@@ -8,7 +8,7 @@ mkdir test
 echo -e "\ntest:\n\t@node test/index.js\n\n.PHONY: test" > Makefile
 echo "module.exports = exports = require('./lib');" > index.js
 echo -e "// $1\n\n" > lib/index.js
-echo -e "*.swo\n*.swp\n*.swn" > .gitignore
+echo -e "*.sw*" > .gitignore
 touch History.md
 title=$1
 len=${#title}
