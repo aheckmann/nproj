@@ -1,11 +1,8 @@
 {
   "author": "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
   "name": "nproj",
-  "description": "Empty node project generator",
-  "version": "0.0.2",
-  "repository": {
-    "url": ""
-  },
+  "description": "Nodejs module boilerplate generator",
+  "version": "0.0.3",
   "dependencies": {},
   "devDependencies": {},
   "repository": {
